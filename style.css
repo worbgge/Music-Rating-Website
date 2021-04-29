@@ -10,6 +10,16 @@ body {
 	border-radius: 50px ;
 }
 
+ul {
+	margin-left: 20px ;
+	margin-right: 20px ;
+}
+
+li img, p img {
+	max-height: 1em ;
+	max-width: 1em ;
+}
+
 html {
 	padding-top: 10px;
 	background: linear-gradient(darkslategray, black) no-repeat fixed ;
