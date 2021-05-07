@@ -1,4 +1,4 @@
-fp img, li img, h1 img, h2 img, h3 img, h4 img {
+p img, li img, h1 img, h2 img, h3 img, h4 img {
 	max-height: 1em;
 	max-width: 1em;
 }
@@ -8,6 +8,25 @@ body {
 	background: rgba(0,0,0,.3) ;
 	padding: 20px ;
 	border-radius: 50px ;
+}
+
+strong { color: white ; }
+
+a strong { color: lime ; }
+details { padding-left: 20px ; text-decoration: underline; }
+
+pre {
+	background: #222 ;
+	border: 1px solid lime ;
+	border-radius: 20px ;
+	padding: 20px ;
+	margin: 30px ;
+}
+
+code {
+	background: #222 ;
+	color: lime ;
+	border-radius: 5px ;
 }
 
 ul {
@@ -67,10 +86,6 @@ dt { font-weight: bold ; color: lightgray ; }
 	list-style: none;
 	padding: 0;
 }
-
-/* .lol li { */
-/* 	padding: 1px ; */
-/* } */
 
 @media (min-width: 55em) {
 	.lol { display: inline-block; vertical-align: top ; }
